@@ -44,7 +44,7 @@ div#rightDiv {
     background-color: #b3b3b3;
     height: 781px;
     position: fixed;
-    right: 327px;
+    right: 5% !important;
     width: 359px;
 }
 
