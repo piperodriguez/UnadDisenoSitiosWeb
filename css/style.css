@@ -42,10 +42,11 @@ h2.card-title {
 }
 div#rightDiv {
     background-color: #b3b3b3;
-    height: 781px;
+    height: 0;
     position: fixed;
     right: 5% !important;
-    width: 359px;
+    width: 294px;
+    top: 14%;
 }
 
 div#cuerpito {
@@ -53,12 +54,26 @@ div#cuerpito {
 }
 
 h5.card-header.items {
-    color: #F0B429;
+    color: #0c0900;
     font-weight: bold;
+    background-color: #b3b3b3;
 }
 
 a.btn.btn-dark {
     background-color: #F0B429;
     color: black;
     font-weight: 700;
+}
+
+ul.list-unstyled.mb-0.sidehipervinculos > li > a {
+    color: #F0B429 !important;
+    font-weight: 700;
+}
+
+
+
+
+footer.bg-dark.pie {
+    background-color: #005883 !important;
+    padding: 10px 10px 10px 10px;
 }
