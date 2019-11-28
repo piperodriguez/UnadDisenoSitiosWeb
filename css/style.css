@@ -1,7 +1,64 @@
+body {
+	font-family: 'Libre Franklin', sans-serif !important;
+}
+
 img#logoNav {
-    width: 33px !important;
+    width: 82px !important;
     height: auto !important;
+    padding-right: 1% !important;
 }
 img#noticia {
     width: 91% !important;
+}
+
+.bg-dark {
+    background-color: #005883 !important;
+}
+
+div#contenedorPadre {
+    margin-top: 4% !important;
+}
+
+ul.navbar-nav.ml-auto {
+    font-weight: bold;
+    color: #005883 !important;
+}
+
+h1#titulo {
+    color: #FF5900;
+    font-weight: 500;
+}
+
+p.card-text {
+    color: #333333 !important;
+    font-size: larger;
+}
+
+h2.card-title {
+    color: #FF5900;
+    font-stretch: condensed;
+    font-weight: 700;
+    text-align: center;
+}
+div#rightDiv {
+    background-color: #b3b3b3;
+    height: 781px;
+    position: fixed;
+    right: 327px;
+    width: 359px;
+}
+
+div#cuerpito {
+    background-color: white;
+}
+
+h5.card-header.items {
+    color: #F0B429;
+    font-weight: bold;
+}
+
+a.btn.btn-dark {
+    background-color: #F0B429;
+    color: black;
+    font-weight: 700;
 }
